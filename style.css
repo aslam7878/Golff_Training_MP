@@ -1,0 +1,134 @@
+
+/* Compact Language Button */
+.lang-dropdown .btn {
+    padding: 3px 14px !important;
+    /* Smaller padding */
+    height: 32px !important;
+    /* Compact height */
+    min-width: 60px;
+    /* Just enough for EN */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px !important;
+    /* Smooth */    
+    font-size: 13px;
+    font-weight: 600;
+    background: #ffffff;
+    border: 1px solid #1fadd1;
+    color: #000;
+ }
+
+ .nav-item .sub-arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.nav-item.dropdown.show .sub-arrow {
+    transform: rotate(180deg);
+}
+
+ .lang-menu {
+    min-width: auto !important;
+    /* No forced width */
+    width: auto !important;
+    padding: 0 !important;
+ }
+
+ .lang-menu .dropdown-item {
+    white-space: nowrap;
+    /* Prevent stretching */
+    padding: 3px 6px !important;
+    /* Tight padding */
+    font-size: 13px;
+ }
+
+
+
+ /* Hover effect */
+ .lang-menu .dropdown-item:hover,
+ .lang-menu .dropdown-item.active {
+    background: #003f88 !important;
+    color: #fff !important;
+ }
+
+ /* Arrow icon smaller */
+ .lang-dropdown .dropdown-toggle::after {
+    font-size: 0.55rem !important;
+    /* Mini arrow */
+    margin-left: 5px !important;
+ }
+
+ .dropdown .menu {
+    position: absolute;
+    inset: 0px 0px auto auto;
+    /* margin: 4px; */
+    transform: translate3d(0px, 34.4px, 0px);
+    padding: 1px 0px 0 0px;
+ }
+ 
+.training-card{
+border:1px solid #eee;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+margin-bottom: 30px;
+margin-top: 10px;
+align-items: stretch;  
+}
+
+/* Start */
+/*
+.training-body h6:nth-of-type(1){
+   margin: 15px 0;       
+   line-height: 1.2;
+}
+
+.training-body p:nth-of-type(3){
+      margin-top: 20px;   
+      line-height: 1.5;    
+}
+.training-body p:nth-of-type(4){
+   margin: auto;
+}
+
+.training-body p:nth-of-type(1), 
+.training-body p:nth-of-type(2){  
+    margin: 10px 0;      
+    line-height: 1.2;   
+}
+ */
+ /* End  */
+.training-card:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.training-card .btn:hover,.training-card .btn:focus{
+background-color: #1fadd1;
+color: #fff;
+
+}
+
+
+.training-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.training-body{
+padding:20px;
+}   
+
+.price{
+font-weight:bold;
+color:#0d6efd;
+}
+
+.seats{
+color:green;
+}
+
+
+ 
